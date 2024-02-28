@@ -27,7 +27,10 @@ module.exports = {
           '900': '#35377a',
           '950': '#1f1f47',
         },
-      }
+      },
+      fontFamily: {
+        urbanist: ["Urbanist", "sans-serif"],
+      },
     },
     
   },

@@ -2,12 +2,12 @@ window.onscroll = function() {navBarScrollLock()};
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
-console.log(navbar, sticky)
+// console.log(navbar, sticky)
 
 function navBarScrollLock() {
-    console.log(window.scrollY)
+    // console.log(window.scrollY)
     if (window.scrollY >= sticky) {
-        console.log(navbar.classList)
+        // console.log(navbar.classList)
 
         navbar.classList.add("fixed");
         navbar.classList.add("top-0");
