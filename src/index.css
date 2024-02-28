@@ -16,3 +16,7 @@
     font-family: "Urbanist";
     src: url("../assets/fonts/Urbanist-VariableFont_wght.ttf");
 }
+
+.text-shadow{
+    text-shadow: 2px 2px 10px #2e2e2e;
+}
