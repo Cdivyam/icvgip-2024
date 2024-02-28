@@ -36,7 +36,7 @@
                 <a class="hidden lg:block p-4 lg:px-6 hover:bg-navigationPurple-500 hover:cursor-pointer border-l-2" href="organisers.html">Organisers</a>
                 <a class="hidden lg:block p-4 lg:px-6 hover:bg-navigationPurple-500 hover:cursor-pointer border-l-2" href="cfp.html">Call For Papers</a>
                 <a class="hidden lg:block p-4 lg:px-6 hover:bg-navigationPurple-500 hover:cursor-pointer border-l-2" href="sponsorship.html">Call For Sponsorship</a>
-                <a class="hidden lg:block p-4 lg:px-6 hover:bg-navigationPurple-500 hover:cursor-pointer border-l-2" href="venue.html">Venue</a>
+                <a class="hidden lg:block p-4 lg:px-6 hover:bg-navigationPurple-500 hover:cursor-pointer border-x-2" href="venue.html">Venue</a>
                 <!-- <div
                     class="hidden lg:flex items-center justify-evenly p-4 lg:px-6 gap-x-2 hover:bg-navigationPurple-500 hover:cursor-pointer
                             border-x-2">
@@ -57,11 +57,13 @@
 
         <!-- ====================================================== -->
         <!-- Content -->
-        <div class="flex flex-col bg-white lg:px-16" >
-            <iframe 
-                src="https://docs.google.com/document/d/e/2PACX-1vQ17DK2F-qH1hdwG-oNnkV7AuEf5mOjBUVIYqBg1b68TiWJS3vKOj92D5gELxzAsQ34cI4JlWIRKls_/pub?embedded=true" 
-                id="google-doc-iframe" frameborder="0" name="google-doc-iframe" width="100%" height="2500px">
-            </iframe>
+        <div class="flex flex-row bg-white p-5 lg:px-16" >
+            <div class="w-full xl:w-5/6">
+                <iframe 
+                    src="https://docs.google.com/document/d/e/2PACX-1vQ17DK2F-qH1hdwG-oNnkV7AuEf5mOjBUVIYqBg1b68TiWJS3vKOj92D5gELxzAsQ34cI4JlWIRKls_/pub?embedded=true" 
+                    id="google-doc-iframe" frameborder="0" name="google-doc-iframe" width="100%" height="1336px" onload="resizeIframe(this)">
+                </iframe>
+            </div>
         </div>
 
         <footer class="bg-navigationPurple-700">
@@ -113,11 +115,29 @@
             obj.style.height = obj.contentWindow.document.documentElement.scrollHeight + 'px';
         }
      </script> -->
-     <!-- <script>
-        var iframe = document.getElementById("google-doc-iframe");
-        iframe.width = iframe.contentWindow.document.documentElement.scrollHeight;
-        iframe.height = iframe.contentWindow.document.documentElement.scrollWidth ;
-     </script> -->
+     <script>
+        function resizeIframe(obj){
+            let screen_width = screen.width
+            console.log(screen_width)
+            if (screen_width <= 1536){
+                obj.height = '1336px'
+            }
+            if (screen_width <= 1280){
+                obj.height = '1336px'
+            }
+            if (screen_width <= 1024){
+                obj.height = '1650px'
+            }
+            if (screen_width <= 768){
+                obj.height = '1650px'
+            }
+            if(screen_width <= 640){
+                obj.height = '2600px'
+            } 
+            
+        }
+        // var iframe = document.getElementById("google-doc-iframe");
+     </script>
 
 </body>
 
