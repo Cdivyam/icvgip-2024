@@ -89,7 +89,7 @@ const organisers = {
     ],
     "Program Chairs":[
         {
-            "name": "Dinesh Babu",
+            "name": "Dinesh Babu Jayagopi",
             "image": "assets/8.jpg",
             "designation": "IIIT Bangalore",
             "socials":
@@ -97,7 +97,7 @@ const organisers = {
                 "scholar":"",
                 "linkedin":"",
                 "twitter":"",
-                "website":"https://cds.iisc.ac.in/faculty/venky/"
+                "website":"https://www.iiitb.ac.in/faculty/dinesh-babu-jayagopi"
             }
         },
         {
@@ -109,7 +109,7 @@ const organisers = {
                 "scholar":"",
                 "linkedin":"",
                 "twitter":"",
-                "website":"https://cds.iisc.ac.in/faculty/venky/"
+                "website":"https://people.iith.ac.in/sumohana/"
             }
         },
         {
