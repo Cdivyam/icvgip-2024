@@ -5,6 +5,7 @@
   "scripts": {
     "start": "npx parcel src/index.html",
     "tailwind-build":"npx tailwindcss -i ./src/index.css -o ./src/index-output.css",
+    "dev": "npm run tailwind-build && npx http-server src/ -p 4869 ",
     "build": "npm run tailwind-build"
   },
   "keywords": [],
