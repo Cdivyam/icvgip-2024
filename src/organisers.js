@@ -26,7 +26,7 @@ const organisers = {
         },
         {
             "name": "Chetan Arora",
-            "image": "assets/3.png",
+            "image": "assets/3.jpg",
             "designation": "IIT Delhi",
             "socials":
             {
@@ -76,7 +76,7 @@ const organisers = {
         },
         {
             "name": "Nicu Sebe",
-            "image": "assets/7.png",
+            "image": "assets/7.jpg",
             "designation": "University of Trento",
             "socials":
             {
