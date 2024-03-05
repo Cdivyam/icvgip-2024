@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build":"npx parcel build src/index.html"
+    "start": "npx parcel src/index.html",
+    "tailwind-build":"npx tailwindcss -i ./src/index.css -o ./src/index-output.css",
+    "build": "npm run tailwind-build"
   },
   "keywords": [],
   "author": "",
@@ -12,7 +14,12 @@
     "autoprefixer": "^10.4.17",
     "http-server": "^14.1.1",
     "parcel": "^2.11.0",
+    "parcel-reporter-static-files-copy": "^1.5.3",
     "postcss": "^8.4.35",
     "tailwindcss": "^3.4.1"
+  },
+  "staticFiles": {
+    "staticPath": "src/assets",
+    "staticOutPath": "assets"
   }
 }

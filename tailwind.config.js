@@ -6,8 +6,8 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        'iiitb-cover-1' :  "url('/assets/2022.jpg')",
-        'iiitb-cover-2' :  "url('/assets/iiitb_cover2.jpg')",
+        'iiitb-cover-1' :  "url('assets/2022.jpg')",
+        'iiitb-cover-2' :  "url('assets/iiitb_cover2.jpg')",
       },
       spacing: {
         '72rem': '72rem',
