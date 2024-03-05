@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build":"npx parcel build src/index.html"
+    "clean-dist": "rm -rf dist && mkdir dist",
+    "copy-assets": "cp -r src/assets/* dist",
+    "init": "npm run clean-dist && npm run copy-assets",
+    "start": "npm init && npx parcel src/index.html",
+    "build": "npm init && npx parcel build src/index.html"
   },
   "keywords": [],
   "author": "",

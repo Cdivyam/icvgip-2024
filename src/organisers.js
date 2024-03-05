@@ -1,60 +1,149 @@
 const organisers = {
-    "Organisers":[
-        {
-            "name": "Prof. Rajeev Ahuja",
-            "image": "person.*.jpg",
-            "designation": "Director IIT Ropar",
-            "socials":
-            {
-                "scholar":"icvgip-2024.pages.dev",
-                "linkedin":"icvgip-2024.pages.dev",
-                "twitter":"icvgip-2024.pages.dev",
-                "website":"icvgip-2024.pages.dev"
-            }
-        }
-    ],
     "ICVGIP Steering Committee":[
         {
-            "name": "Prof. Rajeev Ahuja",
-            "image": "person.*.jpg",
-            "designation": "Director IIT Ropar",
+            "name": "Vijay Natrajan",
+            "image": "assets/1.png",
+            "designation": "IISc Bangalore",
             "socials":
             {
-                "scholar":"icvgip-2024.pages.dev",
-                "linkedin":"icvgip-2024.pages.dev",
-                "twitter":"icvgip-2024.pages.dev",
-                "website":"icvgip-2024.pages.dev"
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://www.csa.iisc.ac.in/~vijayn/"
             }
         },
         {
-            "name": "Prof. Rajeev Ahuja",
-            "image": "person.*.jpg",
-            "designation": "Director IIT Ropar",
+            "name": "Vineeth Balasuburamanian",
+            "image": "assets/2.png",
+            "designation": "IIT Hyderabad",
             "socials":
             {
-                "scholar":"icvgip-2024.pages.dev",
-                "linkedin":"icvgip-2024.pages.dev",
-                "twitter":"icvgip-2024.pages.dev",
-                "website":"icvgip-2024.pages.dev"
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://people.iith.ac.in/vineethnb/"
+            }
+        },
+        {
+            "name": "Chetan Arora",
+            "image": "assets/3.png",
+            "designation": "IIT Delhi",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://www.cse.iitd.ac.in/~chetan/"
+            }
+        },
+        {
+            "name": "Abhinav Dhall",
+            "image": "assets/4.png",
+            "designation": "IIT Ropar",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://www.iitrpr.ac.in/cse/abhinavdhall"
+            }
+        },
+    ],
+    "General Chairs":[
+        {
+            "name": "Venkatesh Babu",
+            "image": "assets/5.jpg",
+            "designation": "IISc Bangalore",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://cds.iisc.ac.in/faculty/venky/"
+            }
+        },
+        {
+            "name": "Manjunath BS",
+            "image": "assets/6.jpg",
+            "designation": "UCSB",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://vision.ece.ucsb.edu/people/bs-manjunath"
+            }
+        },
+        {
+            "name": "Nicu Sebe",
+            "image": "assets/7.png",
+            "designation": "University of Trento",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"http://disi.unitn.it/~sebe/"
+            }
+        },
+    ],
+    "Program Chairs":[
+        {
+            "name": "Dinesh Babu",
+            "image": "assets/8.jpg",
+            "designation": "IIIT Bangalore",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://cds.iisc.ac.in/faculty/venky/"
+            }
+        },
+        {
+            "name": "Sumohana Channappayya ",
+            "image": "assets/9.jpg",
+            "designation": "IIIT Hyderabad",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://cds.iisc.ac.in/faculty/venky/"
+            }
+        },
+        {
+            "name": "Elisa Ricci ",
+            "image": "assets/10.jpeg",
+            "designation": "University of Trento",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://eliricci.eu/"
             }
         },
     ]
 
 }
 
-var organiserContainer = document.getElementById("organisers")
+function fillOrgPeople(){
 
-let org_template_finalized = ``
+    var organiserContainer = document.getElementById("organisers")
 
-Object.keys(organisers).forEach(ele => {
-    console.log(ele)
-
-    let temp = getOrgTemplate(ele, organisers[ele])  
-    org_template_finalized = org_template_finalized + temp    
-});
-
-console.log(org_template_finalized)
-organiserContainer.innerHTML = org_template_finalized
+    let org_template_finalized = ``
+    
+    Object.keys(organisers).forEach(ele => {
+        console.log(ele)
+    
+        let temp = getOrgTemplate(ele, organisers[ele])  
+        org_template_finalized = org_template_finalized + temp    
+    });
+    
+    console.log(org_template_finalized)
+    organiserContainer.innerHTML = org_template_finalized
+}
 
 function getSocialTemplate(socials){
     let socials_finalized = ``
@@ -83,7 +172,16 @@ function getSocialTemplate(socials){
                 </path>
             </svg>
         </a>`,
-        'website': ``
+        'website': `
+        <a class="text-black " aria-label="X" href="${socials['website']}" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" class="h-7">
+                    <path stroke-linecap="round" stroke-linejoin="round" 
+                        d="M13.5 6H5.25A2.25 2.25 0 0 0 3 8.25v10.5A2.25 2.25 0 0 0 5.25 21h10.5A2.25 2.25 0 0 0 18 18.75V10.5m-10.5 6L21 3m0 0h-5.25M21 3v5.25" >
+                    </path>
+            </svg>
+      
+        </a>
+        `
     }
 
     Object.keys(socials).forEach(ele=>{
@@ -98,12 +196,12 @@ function getPeopleTempalte(image, name, designation, socials){
     
     let person_template = `
         <!-- Individual Person Template -->
-        <div class="flex flex-col md:flex-row items-center border-2 border-slate-300 p-5">
-            <div class="flex w-1/2 md:max-w-[250px] border-4 border-slate-300 justify-center">
+        <div class="flex flex-col md:flex-row items-center w-full xl:w-[45%] border-2 border-slate-300 p-2 md:p-5">
+            <div class="flex md:h-[150px] w-[150px] sm:w-1/2  md:max-w-[150px] border-4 border-slate-300 justify-center">
                 <img src="${image}" alt="person">
             </div>
-            <div class="w-full flex flex-col p-5 items-center">
-                <div class="text-2xl font-bold">${name}</div>
+            <div class="w-full flex flex-col p-2 md:p-5 items-center">
+                <div class="text-xl font-bold text-center">${name}</div>
                 <div class="h-[1px] w-full bg-slate-700 my-2"></div>
                 <div>${designation}</div>
                 <div class="flex flex-row w-full pt-2 gap-2 items-bottom justify-center">
