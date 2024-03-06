@@ -1,7 +1,7 @@
 const organisers = {
     "ICVGIP Steering Committee":[
         {
-            "name": "Vijay Natrajan",
+            "name": "Vijay Natarajan",
             "image": "assets/1.png",
             "designation": "IISc Bangalore",
             "socials":
@@ -46,6 +46,18 @@ const organisers = {
                 "linkedin":"",
                 "twitter":"",
                 "website":"https://www.iitrpr.ac.in/cse/abhinavdhall"
+            }
+        },
+        {
+            "name": "Anand Mishra",
+            "image": "assets/11.jpg",
+            "designation": "IIT Jodhpur",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://research.iitj.ac.in/researcher/anand-mishra"
             }
         },
     ],
