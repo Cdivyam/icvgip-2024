@@ -32,6 +32,9 @@ function navBarScrollLock() {
 
 const navham = document.getElementById("hamburger-nav-menu")
 const mobnav = document.getElementById("mobile-nav")
+const subnav_infoauth = document.getElementById("subnav-infoauth")
+const subnav_infoatt = document.getElementById("subnav-infoatt")
+
 
 navham.addEventListener("click", (e)=>{
     e.preventDefault()
@@ -43,3 +46,32 @@ navham.addEventListener("click", (e)=>{
         mobnav.classList.add('hidden')
     }
 })
+
+subnav_infoauth.addEventListener("click", (e)=>{
+    e.preventDefault()
+    const infoauthChildren = document.querySelectorAll(".subnav-infoauth")
+    for(let i=0; i<infoauthChildren.length; i++){
+        if(infoauthChildren[i].classList.contains('hidden')){
+            infoauthChildren[i].classList.remove('hidden')
+            infoauthChildren[i].classList.add('block')
+        } else{
+            infoauthChildren[i].classList.remove('block')
+            infoauthChildren[i].classList.add('hidden')
+        }
+    }
+})
+
+subnav_infoatt.addEventListener("click", (e)=>{
+    e.preventDefault()
+    const infoattChildren = document.querySelectorAll(".subnav-infoatt")
+    for(let i=0; i<infoattChildren.length; i++){
+        if(infoattChildren[i].classList.contains('hidden')){
+            infoattChildren[i].classList.remove('hidden')
+            infoattChildren[i].classList.add('block')
+        } else{
+            infoattChildren[i].classList.remove('block')
+            infoattChildren[i].classList.add('hidden')
+        }
+    }
+})
+
