@@ -13,7 +13,7 @@
         <!-- ===========================Header and navbar=========================== -->
         <header class="bg-white">
             <div class="w-full h-96 bg-iiitb-cover-3 bg-cover bg-center align-bottom relative">
-                <div class="text-white p-4 absolute bottom-0">
+                <div class="text-white p-4 absolute bottom-0 ">
                     <div class="font-extrabold font-urbanist text-5xl text-shadow">ICVGIP 2024</div>
                     <div class="font-bold font-urbanist text-2xl text-shadow">IIIT Bangalore | 13<sup>th</sup> to
                         15<sup>th</sup> December, 2024</div>
@@ -34,23 +34,57 @@
                     </a>
                     <a class="w-full p-2 hover:bg-navigationPurple-500 hover:cursor-pointer" href="organisers.html">
                         Organisers </a>
-                    <a class="w-full p-2 hover:bg-navigationPurple-500 hover:cursor-pointer" href="cfp.html"> Call For
-                        Papers </a>
+                    <div id="subnav-infoauth" class="w-full p-2 hover:bg-navigationPurple-500 hover:cursor-pointer">
+                        Info For Authors
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            class="w-6 h-6 inline-block ml-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </div>
+                    <a class="subnav-infoauth hidden w-full p-2 bg-navigationPurple-500 hover:bg-navigationPurple-700 hover:cursor-pointer"
+                        href="dates.html"> Important Dates </a>
+                    <a class="subnav-infoauth hidden w-full p-2 bg-navigationPurple-500 hover:bg-navigationPurple-700 hover:cursor-pointer"
+                        href="cfp.html"> Call For papers </a>
+                    <div id="subnav-infoatt" class="w-full p-2 hover:bg-navigationPurple-500 hover:cursor-pointer">
+                        Info For Attendees
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor"
+                            class="w-6 h-6 inline-block ml-2">
+                            <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+                        </svg>
+                    </div>
+                    <a class="subnav-infoatt hidden w-full p-2 bg-navigationPurple-500 hover:bg-navigationPurple-700 hover:cursor-pointer"
+                        href="venue.html"> Venue </a>
                     <a class="w-full p-2 hover:bg-navigationPurple-500 hover:cursor-pointer" href="sponsorship.html">
-                        Call For Sponsors </a>
-                    <a class="w-full p-2 hover:bg-navigationPurple-500 hover:cursor-pointer" href="venue.html"> Venue
-                    </a>
+                        Sponsorship </a>
                 </div>
-                <a class="hidden lg:block p-4 lg:px-6 hover:bg-navigationPurple-500 hover:cursor-pointer"
+                <a class="hidden lg:block p-4 lg:px-6 hover:bg-navigationPurple-500 hover:cursor-pointer "
                     href="index.html">Home</a>
                 <a class="hidden lg:block p-4 lg:px-6 hover:bg-navigationPurple-500 hover:cursor-pointer border-l-2"
                     href="organisers.html">Organisers</a>
-                <a class="hidden lg:block p-4 lg:px-6 hover:bg-navigationPurple-500 hover:cursor-pointer border-l-2"
-                    href="cfp.html">Call For Papers</a>
-                <a class="hidden lg:block p-4 lg:px-6 hover:bg-navigationPurple-500 hover:cursor-pointer border-l-2"
-                    href="sponsorship.html">Call For Sponsorship</a>
+                <div
+                    class="hidden lg:block relative group p-4 lg:px-6 hover:bg-navigationPurple-500 hover:cursor-pointer border-l-2">
+                    Info For Authors
+                    <div
+                        class="absolute hidden group-hover:block bg-navigationPurple-700 shadow-md mt-4 w-full z-10 left-0">
+                        <a href="dates.html"
+                            class="block p-4 text-white hover:bg-navigationPurple-500 border-y-white border-t-2">Important
+                            Dates</a>
+                        <a href="cfp.html"
+                            class="block p-4 text-white hover:bg-navigationPurple-500 border-y-white border-t-2">Call
+                            For papers</a>
+                    </div>
+                </div>
+                <div
+                    class="hidden lg:block relative group p-4 lg:px-6 hover:bg-navigationPurple-500 hover:cursor-pointer border-l-2">
+                    Info For Attendees
+                    <div
+                        class="absolute hidden group-hover:block bg-navigationPurple-700 shadow-md mt-4 w-full z-10 left-0">
+                        <a href="venue.html"
+                            class="block p-4 text-white hover:bg-navigationPurple-500 border-y-white border-t-2">Venue</a>
+                    </div>
+                </div>
                 <a class="hidden lg:block p-4 lg:px-6 hover:bg-navigationPurple-500 hover:cursor-pointer border-x-2"
-                    href="venue.html">Venue</a>
+                    href="sponsorship.html">Sponsorship</a>
                 <!-- <div
                     class="hidden lg:flex items-center justify-evenly p-4 lg:px-6 gap-x-2 hover:bg-navigationPurple-500 hover:cursor-pointer
                             border-x-2">
@@ -77,18 +111,20 @@
                 <hr class="h-px mx-5 bg-slate-400 border-0">
                 <div class="text-md px-6 pt-4 text-justify">
                     <p>The <b>The Indian Conference on Computer Vision, Graphics and Image Processing (ICVGIP)</b> is
-                            India’s premier conference in Computer Vision, Graphics, Image Processing and related
-                            fields. Starting in 1998, it was a biennial international conference till 2021, providing a
-                            forum for the presentation of technological advances and research findings in these areas.
-                            ICVGIP 2024, the 15<sup>th</sup> conference in this series, is being organized by International Institute of
-                            Information Technology, Bangalore in association with the Indian Unit for Pattern
-                            Recognition and Artificial Intelligence (IUPRAI), an affiliate of the International
-                            Association for Pattern Recognition (IAPR). From 2022, ICVGIP is organized annually due to
-                            the huge growth in the community. ICVGIP is dedicated to fostering the community of computer
-                            vision, graphics and image processing researchers and enthusiasts in India and abroad. We
-                            strive to live up to this goal at every occurrence of this annual conference. </p>
-                    <br>    
-                    <p>We invite high-quality, original and unpublished papers in the broad areas of computer vision, graphics, and image processing including, but not limited to:</p>
+                        India’s premier conference in Computer Vision, Graphics, Image Processing and related
+                        fields. Starting in 1998, it was a biennial international conference till 2021, providing a
+                        forum for the presentation of technological advances and research findings in these areas.
+                        ICVGIP 2024, the 15<sup>th</sup> conference in this series, is being organized by International
+                        Institute of
+                        Information Technology, Bangalore in association with the Indian Unit for Pattern
+                        Recognition and Artificial Intelligence (IUPRAI), an affiliate of the International
+                        Association for Pattern Recognition (IAPR). From 2022, ICVGIP is organized annually due to
+                        the huge growth in the community. ICVGIP is dedicated to fostering the community of computer
+                        vision, graphics and image processing researchers and enthusiasts in India and abroad. We
+                        strive to live up to this goal at every occurrence of this annual conference. </p>
+                    <br>
+                    <p>We invite high-quality, original and unpublished papers in the broad areas of computer vision,
+                        graphics, and image processing including, but not limited to:</p>
                 </div>
                 <div class="text-2xl px-6 pt-4">Topics of Interest:</div>
                 <div class="flex flex-col lg:flex-row px-6 pb-4">
@@ -135,7 +171,8 @@
 
                 </div>
                 <div class="text-md px-6 py-2 pb-4 text-justify">
-                    <p>All submissions will be handled electronically via the CMT submission portal. The review process will be double-blind.</p>
+                    <p>All submissions will be handled electronically via the CMT submission portal. The review process
+                        will be double-blind.</p>
                 </div>
 
             </div>
