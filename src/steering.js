@@ -1,80 +1,67 @@
 const organisers = {
-    "General Chairs":[
+    "ICVGIP Steering Committee":[
         {
-            "name": "Venkatesh Babu",
-            "image": "assets/5.jpg",
+            "name": "Vijay Natarajan",
+            "image": "assets/1.png",
             "designation": "IISc Bangalore",
             "socials":
             {
                 "scholar":"",
                 "linkedin":"",
                 "twitter":"",
-                "website":"https://cds.iisc.ac.in/faculty/venky/"
+                "website":"https://www.csa.iisc.ac.in/~vijayn/"
             }
         },
         {
-            "name": "Manjunath BS",
-            "image": "assets/6.jpg",
-            "designation": "UCSB",
+            "name": "Vineeth Balasuburamanian",
+            "image": "assets/2.png",
+            "designation": "IIT Hyderabad",
             "socials":
             {
                 "scholar":"",
                 "linkedin":"",
                 "twitter":"",
-                "website":"https://vision.ece.ucsb.edu/people/bs-manjunath"
+                "website":"https://people.iith.ac.in/vineethnb/"
             }
         },
         {
-            "name": "Nicu Sebe",
-            "image": "assets/7.jpg",
-            "designation": "University of Trento",
+            "name": "Chetan Arora",
+            "image": "assets/3.jpg",
+            "designation": "IIT Delhi",
             "socials":
             {
                 "scholar":"",
                 "linkedin":"",
                 "twitter":"",
-                "website":"http://disi.unitn.it/~sebe/"
+                "website":"https://www.cse.iitd.ac.in/~chetan/"
+            }
+        },
+        {
+            "name": "Abhinav Dhall",
+            "image": "assets/4.png",
+            "designation": "IIT Ropar",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://www.iitrpr.ac.in/cse/abhinavdhall"
+            }
+        },
+        {
+            "name": "Anand Mishra",
+            "image": "assets/11.jpg",
+            "designation": "IIT Jodhpur",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://research.iitj.ac.in/researcher/anand-mishra"
             }
         },
     ],
-    "Program Chairs":[
-        {
-            "name": "Dinesh Babu Jayagopi",
-            "image": "assets/8.jpg",
-            "designation": "IIIT Bangalore",
-            "socials":
-            {
-                "scholar":"",
-                "linkedin":"",
-                "twitter":"",
-                "website":"https://www.iiitb.ac.in/faculty/dinesh-babu-jayagopi"
-            }
-        },
-        {
-            "name": "Sumohana Channappayya ",
-            "image": "assets/9.jpg",
-            "designation": "IIIT Hyderabad",
-            "socials":
-            {
-                "scholar":"",
-                "linkedin":"",
-                "twitter":"",
-                "website":"https://people.iith.ac.in/sumohana/"
-            }
-        },
-        {
-            "name": "Elisa Ricci ",
-            "image": "assets/10.jpeg",
-            "designation": "University of Trento",
-            "socials":
-            {
-                "scholar":"",
-                "linkedin":"",
-                "twitter":"",
-                "website":"https://eliricci.eu/"
-            }
-        },
-    ],
+
 }
 
 function fillOrgPeople(){

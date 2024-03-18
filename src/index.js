@@ -34,6 +34,7 @@ const navham = document.getElementById("hamburger-nav-menu")
 const mobnav = document.getElementById("mobile-nav")
 const subnav_infoauth = document.getElementById("subnav-infoauth")
 const subnav_infoatt = document.getElementById("subnav-infoatt")
+const subnav_committees = document.getElementById("subnav-committees")
 
 
 navham.addEventListener("click", (e)=>{
@@ -64,6 +65,20 @@ subnav_infoauth.addEventListener("click", (e)=>{
 subnav_infoatt.addEventListener("click", (e)=>{
     e.preventDefault()
     const infoattChildren = document.querySelectorAll(".subnav-infoatt")
+    for(let i=0; i<infoattChildren.length; i++){
+        if(infoattChildren[i].classList.contains('hidden')){
+            infoattChildren[i].classList.remove('hidden')
+            infoattChildren[i].classList.add('block')
+        } else{
+            infoattChildren[i].classList.remove('block')
+            infoattChildren[i].classList.add('hidden')
+        }
+    }
+})
+
+subnav_committees.addEventListener("click", (e)=>{
+    e.preventDefault()
+    const infoattChildren = document.querySelectorAll(".subnav-committees")
     for(let i=0; i<infoattChildren.length; i++){
         if(infoattChildren[i].classList.contains('hidden')){
             infoattChildren[i].classList.remove('hidden')
