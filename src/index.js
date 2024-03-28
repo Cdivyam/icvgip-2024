@@ -35,6 +35,7 @@ const mobnav = document.getElementById("mobile-nav")
 const subnav_infoauth = document.getElementById("subnav-infoauth")
 const subnav_infoatt = document.getElementById("subnav-infoatt")
 const subnav_committees = document.getElementById("subnav-committees")
+const subnav_archive = document.getElementById("subnav-archive")
 
 
 navham.addEventListener("click", (e)=>{
@@ -86,6 +87,20 @@ subnav_committees.addEventListener("click", (e)=>{
         } else{
             infoattChildren[i].classList.remove('block')
             infoattChildren[i].classList.add('hidden')
+        }
+    }
+})
+
+subnav_archive.addEventListener("click", (e)=>{
+    e.preventDefault()
+    const children = document.querySelectorAll(".subnav-archive-year")
+    for(let i=0; i<children.length; i++){
+        if(children[i].classList.contains('hidden')){
+            children[i].classList.remove('hidden')
+            children[i].classList.add('block')
+        } else{
+            children[i].classList.remove('block')
+            children[i].classList.add('hidden')
         }
     }
 })
