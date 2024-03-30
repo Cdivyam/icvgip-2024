@@ -2,7 +2,7 @@ const organisers = {
     "ICVGIP Steering Committee":[
         {
             "name": "Vijay Natarajan",
-            "image": "assets/1.png",
+            "image": "assets/1.jpg",
             "designation": "IISc Bangalore",
             "socials":
             {
@@ -14,7 +14,7 @@ const organisers = {
         },
         {
             "name": "Vineeth Balasuburamanian",
-            "image": "assets/2.png",
+            "image": "assets/2.jpg",
             "designation": "IIT Hyderabad",
             "socials":
             {

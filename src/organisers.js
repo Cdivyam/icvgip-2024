@@ -75,6 +75,166 @@ const organisers = {
             }
         },
     ],
+    "Organizing Chairs":[
+        {
+            "name": "Shyam Rajagopalan",
+            "image": "assets/014.jpg",
+            "designation": "IBAB Bangalore",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://www.ibab.ac.in/people/faculty-members/shyam-rajagopalan/"
+            }
+        },
+        {
+            "name": "Viswanath Gopalakrishnan",
+            "image": "assets/012.jpg",
+            "designation": "IIIT Bangalore",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://www.iiitb.ac.in/faculty/viswanath-gopalakrishnan/"
+            }
+        },
+    ],
+    "Publicity Chairs":[
+        {
+            "name": "Raj Sharma",
+            "image": "assets/013.jpg",
+            "designation": "Walmart",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"https://www.linkedin.com/in/raj-sharma-b38a886/",
+                "twitter":"",
+                "website":""
+            }
+        },
+    ],
+    "Sponsorship Chairs":[
+        {
+            "name": "Lokesh",
+            "image": "assets/person.webp",
+            "designation": "Samsung",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":""
+            }
+        },
+    ],
+    "Tutorial Chairs":[
+        {
+            "name": "Joseph",
+            "image": "assets/person.webp",
+            "designation": "Adobe",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":""
+            }
+        },
+        {
+            "name": "Rajiv Soundararajan",
+            "image": "assets/015.jpg",
+            "designation": "IISc Bangalore",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://ece.iisc.ac.in/~rajivs/#/"
+            }
+        },
+    ],
+    "Vision India Chairs":[
+        {
+            "name": "Konda Reddy",
+            "image": "assets/016.jpg",
+            "designation": "IIT Hyderabad",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://www.iith.ac.in/ai/krmopuri/"
+            }
+        },
+    ],
+    "Publication Chair":[
+        {
+            "name": "Lakshmanan Nataraj",
+            "image": "assets/person.webp",
+            "designation": "Trimble Inc.",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":""
+            }
+        },
+        {
+            "name": "Anirban Chakraborty",
+            "image": "assets/020.jpg",
+            "designation": "IISc Bangalore",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://cds.iisc.ac.in/people/anirban-chakraborty/"
+            }
+        },
+    ],
+    "Diversity and Inclusion Chairs":[
+        {
+            "name": "Vaanathi Sundaresan",
+            "image": "assets/017.jpeg",
+            "designation": "IISc Bangalore",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"http://cds.iisc.ac.in/faculty/vaanathi/"
+            }
+        },
+    ],
+    "Local Chairs":[
+        {
+            "name": "Sushree Behera",
+            "image": "assets/018.jpg",
+            "designation": "IIIT Bangalore",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://www.iiitb.ac.in/faculty/sushree-sangeeta-behera"
+            }
+        },
+        {
+            "name": "Raghuram Bharadwaj",
+            "image": "assets/019.jpg",
+            "designation": "IIIT Bangalore",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://www.iiitb.ac.in/faculty/raghuram-bharadwaj"
+            }
+        },
+    ],
 }
 
 function fillOrgPeople(){
