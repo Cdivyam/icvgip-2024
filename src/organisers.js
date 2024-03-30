@@ -157,7 +157,7 @@ const organisers = {
     ],
     "Vision India Chairs":[
         {
-            "name": "Konda Reddy",
+            "name": "Konda Reddy Mopuri",
             "image": "assets/016.jpg",
             "designation": "IIT Hyderabad",
             "socials":
