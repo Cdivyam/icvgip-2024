@@ -53,7 +53,7 @@ const organisers = {
         {
             "name": "Sumohana Channappayya ",
             "image": "assets/9.jpg",
-            "designation": "IIIT Hyderabad",
+            "designation": "IIT Hyderabad",
             "socials":
             {
                 "scholar":"",
@@ -169,7 +169,7 @@ const organisers = {
             }
         },
     ],
-    "Publication Chair":[
+    "Publication Chairs":[
         {
             "name": "Lakshmanan Nataraj",
             "image": "assets/person.webp",
@@ -232,6 +232,20 @@ const organisers = {
                 "linkedin":"",
                 "twitter":"",
                 "website":"https://www.iiitb.ac.in/faculty/raghuram-bharadwaj"
+            }
+        },
+    ],
+    "Web Chair":[
+        {
+            "name": "Divyam Choudhary",
+            "image": "assets/021.jpg",
+            "designation": "IIIT Bangalore",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"https://www.linkedin.com/in/cdivyam/",
+                "twitter":"",
+                "website":""
             }
         },
     ],
