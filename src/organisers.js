@@ -117,13 +117,13 @@ const organisers = {
     ],
     "Sponsorship Chairs":[
         {
-            "name": "Lokesh",
-            "image": "assets/person.webp",
-            "designation": "Samsung",
+            "name": "Lokesh Boregowda",
+            "image": "assets/024.jpeg",
+            "designation": "Samsung R&D Institute",
             "socials":
             {
                 "scholar":"",
-                "linkedin":"",
+                "linkedin":"https://www.linkedin.com/in/lokesh-boregowda-14321810/",
                 "twitter":"",
                 "website":""
             }
@@ -131,15 +131,15 @@ const organisers = {
     ],
     "Tutorial Chairs":[
         {
-            "name": "Joseph",
-            "image": "assets/person.webp",
+            "name": "Joseph K J",
+            "image": "assets/023.jpg",
             "designation": "Adobe",
             "socials":
             {
                 "scholar":"",
                 "linkedin":"",
                 "twitter":"",
-                "website":""
+                "website":"https://josephkj.in/"
             }
         },
         {
@@ -172,12 +172,12 @@ const organisers = {
     "Publication Chairs":[
         {
             "name": "Lakshmanan Nataraj",
-            "image": "assets/person.webp",
+            "image": "assets/022.jpeg",
             "designation": "Trimble Inc.",
             "socials":
             {
                 "scholar":"",
-                "linkedin":"",
+                "linkedin":"https://in.linkedin.com/in/lakshmanannataraj",
                 "twitter":"",
                 "website":""
             }
