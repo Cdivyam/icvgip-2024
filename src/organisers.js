@@ -128,6 +128,18 @@ const organisers = {
                 "website":""
             }
         },
+        {
+            "name": "Suresh Sundaram",
+            "image": "assets/025.jpg",
+            "designation": "IISc Bangalore",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://aero.iisc.ac.in/people/suresh-sundaram/"
+            }
+        },
     ],
     "Tutorial Chairs":[
         {
