@@ -3,5 +3,6 @@ Disallow: /nogooglebot/
 
 User-agent: *
 Allow: /
+Disallow: https://dev.icvgip-2024.pages.dev/
 
 Sitemap: https://icvgip.in/sitemap.xml
