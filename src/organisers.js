@@ -247,6 +247,32 @@ const organisers = {
             }
         },
     ],
+    "Doctoral Consortium Chairs":[
+        {
+            "name": "Neelam Sinha",
+            "image": "assets/26.jpg",
+            "designation": "IISc Bangalore",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://cbr-iisc.ac.in/people/neelam-sinha/"
+            }
+        },
+        {
+            "name": "Annapurna Sharma",
+            "image": "assets/027.jpeg",
+            "designation": "Zensar Technologies",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"https://www.linkedin.com/in/annapurna-sharma-60a4888/",
+                "twitter":"",
+                "website":""
+            }
+        },
+    ],
     "Web Chair":[
         {
             "name": "Divyam Choudhary",
