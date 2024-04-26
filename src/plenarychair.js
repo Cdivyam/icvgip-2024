@@ -1,5 +1,5 @@
 const organisers = {
-    "Plenary Chairs":[
+    "Plenary Chair":[
         {
             "name": "PJ Narayan",
             "image": "assets/028.jpg",
