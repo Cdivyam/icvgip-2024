@@ -1,7 +1,7 @@
 const organisers = {
     "Plenary Chair":[
         {
-            "name": "PJ Narayan",
+            "name": "PJ Narayanan",
             "image": "assets/028.jpg",
             "designation": "IIIT Hyderabad",
             "socials":
