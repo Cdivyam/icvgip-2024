@@ -287,6 +287,48 @@ const organisers = {
             }
         },
     ],
+    "Young Faculty Symposium":[
+        {
+            "name": "Neelam Sinha",
+            "image": "assets/26.jpg",
+            "designation": "IISc Bangalore",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://cbr-iisc.ac.in/people/neelam-sinha/"
+            }
+        },
+    ],
+    "Young Researchers Symposium":[
+        {
+            "name": "Annapurna Sharma",
+            "image": "assets/027.jpeg",
+            "designation": "Zensar Technologies",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"https://www.linkedin.com/in/annapurna-sharma-60a4888/",
+                "twitter":"",
+                "website":""
+            }
+        },
+    ],
+    "Industrial Research Symposium":[
+        {
+            "name": "Sowmya Rasipuram",
+            "image": "assets/029.jpg",
+            "designation": "Accenture Labs",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"https://www.linkedin.com/in/dr-sowmya-rasipuram-aab15410",
+                "twitter":"",
+                "website":""
+            }
+        },
+    ],
 }
 
 function fillOrgPeople(){
