@@ -221,72 +221,6 @@ const organisers = {
             }
         },
     ],
-    "Local Chairs":[
-        {
-            "name": "Sushree Behera",
-            "image": "assets/018.jpg",
-            "designation": "IIIT Bangalore",
-            "socials":
-            {
-                "scholar":"",
-                "linkedin":"",
-                "twitter":"",
-                "website":"https://www.iiitb.ac.in/faculty/sushree-sangeeta-behera"
-            }
-        },
-        {
-            "name": "Raghuram Bharadwaj",
-            "image": "assets/019.jpg",
-            "designation": "IIIT Bangalore",
-            "socials":
-            {
-                "scholar":"",
-                "linkedin":"",
-                "twitter":"",
-                "website":"https://www.iiitb.ac.in/faculty/raghuram-bharadwaj"
-            }
-        },
-    ],
-    "Doctoral Consortium Chairs":[
-        {
-            "name": "Neelam Sinha",
-            "image": "assets/26.jpg",
-            "designation": "IISc Bangalore",
-            "socials":
-            {
-                "scholar":"",
-                "linkedin":"",
-                "twitter":"",
-                "website":"https://cbr-iisc.ac.in/people/neelam-sinha/"
-            }
-        },
-        {
-            "name": "Annapurna Sharma",
-            "image": "assets/027.jpeg",
-            "designation": "Zensar Technologies",
-            "socials":
-            {
-                "scholar":"",
-                "linkedin":"https://www.linkedin.com/in/annapurna-sharma-60a4888/",
-                "twitter":"",
-                "website":""
-            }
-        },
-    ],
-    "Web Chair":[
-        {
-            "name": "Divyam Choudhary",
-            "image": "assets/021.jpg",
-            "designation": "IIIT Bangalore",
-            "socials":
-            {
-                "scholar":"",
-                "linkedin":"https://www.linkedin.com/in/cdivyam/",
-                "twitter":"",
-                "website":""
-            }
-        },
-    ],
     "Young Faculty Symposium":[
         {
             "name": "Neelam Sinha",
@@ -329,6 +263,47 @@ const organisers = {
             }
         },
     ],
+    "Local Chairs":[
+        {
+            "name": "Sushree Behera",
+            "image": "assets/018.jpg",
+            "designation": "IIIT Bangalore",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://www.iiitb.ac.in/faculty/sushree-sangeeta-behera"
+            }
+        },
+        {
+            "name": "Raghuram Bharadwaj",
+            "image": "assets/019.jpg",
+            "designation": "IIIT Bangalore",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://www.iiitb.ac.in/faculty/raghuram-bharadwaj"
+            }
+        },
+    ],
+    "Web Chair":[
+        {
+            "name": "Divyam Choudhary",
+            "image": "assets/021.jpg",
+            "designation": "IIIT Bangalore",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"https://www.linkedin.com/in/cdivyam/",
+                "twitter":"",
+                "website":""
+            }
+        },
+    ],
+    
 }
 
 function fillOrgPeople(){
