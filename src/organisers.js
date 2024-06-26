@@ -71,7 +71,7 @@ const organisers = {
                 "scholar":"",
                 "linkedin":"",
                 "twitter":"",
-                "website":"https://eliricci.eu/"
+                "website":"https://webapps.unitn.it/du/en/Persona/PER0126701/Didattica"
             }
         },
     ],
