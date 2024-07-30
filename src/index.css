@@ -63,6 +63,7 @@
     border-bottom-right-radius: 50% 6%;
 } */
 
-.w-11\/12 {
-    width: 91.666667%;
+.hr-wh{
+    height: 1px !important;
+    width: 91.67% !important;
 }
