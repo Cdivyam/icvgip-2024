@@ -75,6 +75,20 @@ const organisers = {
             }
         },
     ],
+    "Tiny Paper Chairs":[
+        {
+            "name": "Shanmuganathan Raman",
+            "image": "assets/030.jpg",
+            "designation": "IIT Gandhinagar",
+            "socials":
+            {
+                "scholar":"",
+                "linkedin":"",
+                "twitter":"",
+                "website":"https://www.shanmuga.people.iitgn.ac.in/"
+            }
+        },
+    ],
     "Organizing Chairs":[
         {
             "name": "Shyam Rajagopalan",
@@ -221,7 +235,7 @@ const organisers = {
             }
         },
     ],
-    "Young Faculty Symposium":[
+    "Young Faculty Symposium Track Chairs":[
         {
             "name": "Neelam Sinha",
             "image": "assets/26.jpg",
@@ -235,7 +249,7 @@ const organisers = {
             }
         },
     ],
-    "Young Researchers Symposium":[
+    "Young Researchers Symposium Track Chairs":[
         {
             "name": "Annapurna Sharma",
             "image": "assets/027.jpeg",
@@ -249,7 +263,7 @@ const organisers = {
             }
         },
     ],
-    "Industrial Research Symposium":[
+    "Industrial Research Symposium Track Chairs":[
         {
             "name": "Sowmya Rasipuram",
             "image": "assets/029.jpg",
