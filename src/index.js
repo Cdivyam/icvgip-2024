@@ -2,6 +2,7 @@ window.onscroll = function() {navBarScrollLock()};
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
+const imp_banner = document.getElementById("important-banner");
 // console.log(navbar, sticky)
 
 function navBarScrollLock() {
@@ -16,6 +17,7 @@ function navBarScrollLock() {
         navbar.classList.add("lg:max-w-4xl");
         navbar.classList.add("xl:max-w-6xl");
         navbar.classList.add("2xl:max-w-7xl");
+        imp_banner.classList.add("hidden");
         // navbar.classList.add("w-72rem");
         // max-w-xl lg:max-w-4xl xl:max-w-6xl 2xl:max-w-7xl
     } else {
@@ -26,6 +28,7 @@ function navBarScrollLock() {
         navbar.classList.remove("lg:max-w-4xl");
         navbar.classList.remove("xl:max-w-6xl");
         navbar.classList.remove("2xl:max-w-7xl");
+        imp_banner.classList.remove("hidden");
         // navbar.classList.remove("w-72rem");
     }
 }
