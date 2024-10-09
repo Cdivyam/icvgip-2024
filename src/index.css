@@ -67,3 +67,52 @@
     height: 1px !important;
     width: 91.67% !important;
 }
+
+table {
+    width: 100%;
+    background-color: rgb(249 250 251);
+}
+
+th,
+td {
+    padding: 0.5rem;
+    border: 1px solid white;
+    text-align: left;
+
+}
+
+th {
+    background: #4442be;
+    color: rgb(249 250 251);
+}
+
+tr:nth-child(even) {
+    background-color: rgb(229 231 235);
+}
+
+td:first-child {
+    font-weight: 600;
+}
+
+
+@media (max-width: 650px){
+    th {
+        display: none;
+    }
+    
+    td {
+        display: grid;
+        grid-template-columns: 15ch auto;
+        padding: 0.5rem 1rem;
+    }
+
+    th,
+    td {
+        border: none;
+    }
+
+    td::before{
+        content: attr(data-cell);
+        font-weight: 600;
+    }
+}
