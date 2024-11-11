@@ -41,7 +41,7 @@ const organisers = {
         {
             "name": "Dinesh Babu Jayagopi",
             "image": "assets/8.jpg",
-            "designation": "IIIT Bangalore",
+            "designation": "IIIT-Bangalore",
             "socials":
             {
                 "scholar":"",
@@ -105,7 +105,7 @@ const organisers = {
         {
             "name": "Viswanath Gopalakrishnan",
             "image": "assets/012.jpg",
-            "designation": "IIIT Bangalore",
+            "designation": "IIIT-Bangalore",
             "socials":
             {
                 "scholar":"",
@@ -281,7 +281,7 @@ const organisers = {
         {
             "name": "Sushree Behera",
             "image": "assets/018.jpg",
-            "designation": "IIIT Bangalore",
+            "designation": "IIIT-Bangalore",
             "socials":
             {
                 "scholar":"",
@@ -293,7 +293,7 @@ const organisers = {
         {
             "name": "Raghuram Bharadwaj",
             "image": "assets/019.jpg",
-            "designation": "IIIT Bangalore",
+            "designation": "IIIT-Bangalore",
             "socials":
             {
                 "scholar":"",
@@ -307,7 +307,7 @@ const organisers = {
         {
             "name": "Divyam Choudhary",
             "image": "assets/021.jpg",
-            "designation": "IIIT Bangalore",
+            "designation": "IIIT-Bangalore",
             "socials":
             {
                 "scholar":"",
