@@ -94,6 +94,25 @@ td:first-child {
     font-weight: 600;
 }
 
+.tab {
+    cursor: pointer;
+    padding: 10px;
+    color: black;
+}
+
+.tab.active {
+    background-color: #4442be;
+    color: white !important;
+}
+
+[data-tab-content] {
+    display: none;
+}
+
+.active[data-tab-content] {
+    display: block;
+}
+
 
 @media (max-width: 650px){
     th {
