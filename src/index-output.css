@@ -1389,6 +1389,14 @@ video {
   outline-style: solid;
 }
 
+html{
+  scroll-behavior: smooth;
+}
+
+body{
+  scroll-behavior: smooth;
+}
+
 .justify-center{
   justify-content: center;
 }
