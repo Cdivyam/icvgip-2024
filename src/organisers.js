@@ -85,7 +85,7 @@ const organisers = {
                 "scholar":"",
                 "linkedin":"",
                 "twitter":"",
-                "website":"https://www.shanmuga.people.iitgn.ac.in/"
+                "website":"https://shanmuga.people.iitgn.ac.in/"
             }
         },
     ],
