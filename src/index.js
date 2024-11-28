@@ -35,6 +35,7 @@ function navBarScrollLock() {
 
 const navham = document.getElementById("hamburger-nav-menu")
 const mobnav = document.getElementById("mobile-nav")
+const subnav_program = document.getElementById("subnav-program")
 const subnav_infoauth = document.getElementById("subnav-infoauth")
 const subnav_infoatt = document.getElementById("subnav-infoatt")
 const subnav_committees = document.getElementById("subnav-committees")
@@ -49,6 +50,20 @@ navham.addEventListener("click", (e)=>{
     } else{
         mobnav.classList.remove('flex')
         mobnav.classList.add('hidden')
+    }
+})
+
+subnav_program.addEventListener("click", (e)=>{
+    e.preventDefault()
+    const infoauthChildren = document.querySelectorAll(".subnav-program")
+    for(let i=0; i<infoauthChildren.length; i++){
+        if(infoauthChildren[i].classList.contains('hidden')){
+            infoauthChildren[i].classList.remove('hidden')
+            infoauthChildren[i].classList.add('block')
+        } else{
+            infoauthChildren[i].classList.remove('block')
+            infoauthChildren[i].classList.add('hidden')
+        }
     }
 })
 
