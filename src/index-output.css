@@ -1685,6 +1685,10 @@ td:first-child {
     display: none;
   }
 
+  .lg\:h-\[200px\] {
+    height: 200px;
+  }
+
   .lg\:h-\[450px\] {
     height: 450px;
   }
