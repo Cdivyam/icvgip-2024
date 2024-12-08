@@ -248,53 +248,343 @@
                     </p>
                 </div>
 
-                <div id="tiny-papers" class="py-6">
-                    <div class="text-md px-6 pt-4 text-justify">
-                        <div class="text-md text-justify">
-                            <table>
-                                <tr>
-                                    <th>Paper ID</th>
-                                    <th width="40%">Title</th>
-                                    <th>Authors</th>
-                                    <!-- <th>Venue</th> -->
-                                </tr>
-                                <tr>
-                                    <td data-cell="Paper ID">190</td>
-                                    <td data-cell="Title">Deep Priors for Video Quality Prediction</td>
-                                    <td data-cell="Authors">Siddharath Narayan Shakya (Indian Institute of Technology, Mandi); Parimala Kancharla (Indian Institute of Technology Mandi)</td>
-                                </tr>
-                                <tr>
-                                    <td data-cell="Paper ID">196</td>
-                                    <td data-cell="Title">Temporal and Spatial Super Resolution with Latent Diffusion Model in Medical MRI images</td>
-                                    <td data-cell="Authors">Dubey, Vishal* (work done as independent research)</td>
-                                </tr>
-                                <tr>
-                                    <td data-cell="Paper ID">198</td>
-                                    <td data-cell="Title">Image Generation from Image Captioning - Invertible Approach</td>
-                                    <td data-cell="Authors">Raghuram Diddigi* (International Institute of Information Technology); Menon, Nandakishore (IBM Research, Bangalore); Kamanchi, Chandramouli (IBM Research, Bangalore)</td>
-                                </tr>
-                                <tr>
-                                    <td data-cell="Paper ID">204</td>
-                                    <td data-cell="Title">Defective Edge Detection Using Cascaded Ensemble Canny Operator</td>
-                                    <td data-cell="Authors">Anjali Nambiyar* (Bishop Heber College); Rajkumar Kannan (Bishop Heber College)</td>
-                                </tr>
-                                <tr>
-                                    <td data-cell="Paper ID">210</td>
-                                    <td data-cell="Title">WavShadow: Wavelet Based Shadow Segmentation and Removal</td>
-                                    <td data-cell="Authors">Shreyans Jain* (Indian Institute of Technology, Gandhinagar); Viraj Vekaria (Indian Institute of Technology Gandhinagar); Karan Sagar Gandhi (Indian Institute of Technology, Gandhinagar); Aadya Arora (Indian Institute of Technology Gandhinagar)</td>
-                                </tr>
-                                <tr>
-                                    <td data-cell="Paper ID">213</td>
-                                    <td data-cell="Title">Adaptive Multi Scale Document Binarisation Using Vision Mamba</td>
-                                    <td data-cell="Authors">Siddhant Bharadwaj (Indian Institute of Science, Bangalore); Mohd Azfar* (Indian Institute of Science); Ashwin Sasikumar (International Institute of Information Technology, Bangalore)</td>
-                                </tr>
-                                <tr>
-                                    <td data-cell="Paper ID">218</td>
-                                    <td data-cell="Title">Practical and Accurate Reconstruction of an Illuminant's Spectral Power Distribution for Inverse Rendering Pipelines</td>
-                                    <td data-cell="Authors">Parisha Joshi* (Clemson University); Daljit Singh Dhillon (Clemson University)</td>
-                                </tr>                                
-                            </table>
+                <div class="tiny-papers">
+                    <div class="tiny-papers-showcase flex flex-col lg:flex-row lg:flex-wrap items-center lg:items-start w-full p-2 lg:p-5">
+                        <div class="lg:w-1/2 xl:w-1/3 px-1 py-1">
+                            <div class="border pb-3">
+                                <!-- <div class="flex w-[80%] sm:w-1/2 md:w-[250px] justify-center">
+                                    <img src="assets/AlBovik.jpg" alt="Alan Bovik">
+                                </div> -->
+                                <div class="w-full flex flex-col p-2 lg:px-5 lg:py-0">
+                                    <div class="grid place-content-center font-urbanist text-xl font-bold text-center text-navigationPurple-700 py-2 h-[100px]">
+                                        Deep Priors for Video Quality Prediction
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="tutorial-speakers py-1 flex flex-col items-center">
+                                        <div class="text-sm text-center lg:text-left">
+                                            <span class="font-bold">Siddharath Narayan Shakya</span>
+                                            <span class="italic">, IIT Mandi</span>
+                                        </div>
+                                        <div class="text-sm text-center lg:text-left">
+                                            <span class="font-bold">Parimala Kancharla</span>
+                                            <span class="italic">, IIT Mandi</span>
+                                        </div>
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="tutorial-time py-1 text-center text-slate-500">
+                                        <a href="https://arxiv.org/abs/2410.22566" target="_blank">
+                                            <div class="text-sm lg:text-left flex justify-center">
+                                                <img src="assets/logos/arxiv.png" alt="arxiv logo" width="20" height="20">
+                                                <span>Arxiv</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="text-sm text-justify px-3 py-2 lg:px-0 pb-6 h-56 overflow-y-scroll">
+                                        <p><strong>Abstract:</strong> In this work, we designed a completely blind video quality assessment algorithm using 
+                                            the deep video prior. This work mainly explores the utility of deep video prior in estimating the visual quality 
+                                            of the video. In our work, we have used a single distorted video and a reference video pair to learn the deep video 
+                                            prior. At inference time, the learned deep prior is used to restore the original videos from the distorted videos. 
+                                            The ability of learned deep video prior to restore the original video from the distorted video is measured to 
+                                            quantify distortion in the video. Our hypothesis is that the learned deep video prior fails in restoring the 
+                                            highly distorted videos. The restoring ability of deep video prior is proportional to the distortion present 
+                                            in the video. Therefore, we propose to use the distance between the distorted video and the restored video as 
+                                            the perceptual quality of the video. Our algorithm is trained using a single video pair and it does not need any 
+                                            labelled data. We show that our proposed algorithm outperforms the existing unsupervised video quality assessment 
+                                            algorithms in terms of LCC and SROCC on a synthetically distorted video quality assessment dataset. 
+                                        </p>
+                                    </div>                 
+                                </div>
+                            </div>
                         </div>
+                        <div class="lg:w-1/2 xl:w-1/3 px-1 py-1">
+                            <div class="border pb-3">
+                                <!-- <div class="flex w-[80%] sm:w-1/2 md:w-[250px] justify-center">
+                                    <img src="assets/AlBovik.jpg" alt="Alan Bovik">
+                                </div> -->
+                                <div class="w-full flex flex-col p-2 lg:px-5 lg:py-0">
+                                    <div class="grid place-content-center font-urbanist text-lg font-bold text-center text-navigationPurple-700 py-2 h-[100px]">
+                                        Temporal and Spatial Super Resolution with Latent Diffusion Model in Medical MRI images
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="tutorial-speakers py-1 flex flex-col items-center">
+                                        <div class="text-sm text-center lg:text-left">
+                                            <span class="font-bold">Vishal Dubey</span>
+                                        </div>
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="tutorial-time py-1 text-center text-slate-500">
+                                        <a href="https://arxiv.org/abs/2410.23898" target="_blank">
+                                            <div class="text-sm lg:text-left flex justify-center">
+                                                <img src="assets/logos/arxiv.png" alt="arxiv logo" width="20" height="20">
+                                                <span>Arxiv</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="text-sm text-justify px-3 py-2 lg:px-0 pb-6 h-56 overflow-y-scroll">
+                                        <p><strong>Abstract:</strong> Super Resolution (SR) plays a critical role in computer vision, particularly in medical
+                                            imaging, where hardware and acquisition time constraints often result in low spatial and temporal resolution. While
+                                            diffusion models have been applied for both spatial and temporal SR, few studies have explored their use for joint
+                                            spatial and temporal SR, particularly in medical imaging. In this work, we address this gap by proposing to use a
+                                            Latent Diffusion Model (LDM) combined with a Vector Quantised GAN (VQGAN)-based encoder-decoder architecture for
+                                            joint super resolution. We frame SR as an image denoising problem, focusing on improving both spatial and temporal
+                                            resolution in medical images. Using the cardiac MRI dataset from the Data Science Bowl Cardiac Challenge, consisting
+                                            of 2D cine images with a spatial resolution of 256x256 and 8-14 slices per time-step, we demonstrate the
+                                            effectiveness of our approach. Our LDM model achieves Peak Signal to Noise Ratio (PSNR) of 30.37, Structural
+                                            Similarity Index (SSIM) of 0.7580, and Learned Perceptual Image Patch Similarity (LPIPS) of 0.2756, outperforming
+                                            simple baseline method by 5% in PSNR, 6.5% in SSIM, 39% in LPIPS. Our LDM model generates images with high fidelity
+                                            and perceptual quality with 15 diffusion steps. These results suggest that LDMs hold promise for advancing super
+                                            resolution in medical imaging, potentially enhancing diagnostic accuracy and patient outcomes. Code link is also
+                                            shared.
+                                        </p>
+                                    </div>                 
+                                </div>
+                            </div> 
+                        </div> 
+                        <div class="lg:w-1/2 xl:w-1/3 px-1 py-1">
+                            <div class="border pb-3">
+                                <!-- <div class="flex w-[80%] sm:w-1/2 md:w-[250px] justify-center">
+                                    <img src="assets/AlBovik.jpg" alt="Alan Bovik">
+                                </div> -->
+                                <div class="w-full flex flex-col p-2 lg:px-5 lg:py-0">
+                                    <div class="grid place-content-center font-urbanist text-xl font-bold text-center text-navigationPurple-700 py-2 h-[100px]">
+                                        Image Generation from Image Captioning - Invertible Approach
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="tutorial-speakers py-1 flex flex-col items-center">
+                                        <div class="text-sm text-center lg:text-left">
+                                            <span class="font-bold">Raghuram Diddigi</span>
+                                            <span class="italic">, IIIT-Bangalore</span>
+                                        </div>
+                                        <div class="text-sm text-center lg:text-left">
+                                            <span class="font-bold">Menon Nandakishore</span>
+                                            <span class="italic">, IBM Rsch, Bangalore</span>
+                                        </div>
+                                        <div class="text-sm text-center lg:text-left">
+                                            <span class="font-bold">Kamanchi Chandramouli</span>
+                                            <span class="italic">, IBM Rsch, Bangalore</span>
+                                        </div>
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="tutorial-time py-1 text-center text-slate-500">
+                                        <a href="https://arxiv.org/abs/2410.20171" target="_blank">
+                                            <div class="text-sm lg:text-left flex justify-center">
+                                                <img src="assets/logos/arxiv.png" alt="arxiv logo" width="20" height="20">
+                                                <span>Arxiv</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="text-sm text-justify px-3 py-2 lg:px-0 pb-6 h-56 overflow-y-scroll">
+                                        <p><strong>Abstract:</strong> Our work aims to build a model that performs dual tasks of image captioning and image
+                                            generation while being trained on only one task. The central idea is to train an invertible model that learns a
+                                            one-to-one mapping between the image and text embeddings. Once the invertible model is efficiently trained on one
+                                            task, the image captioning, the same model can generate new images for a given text through the inversion process,
+                                            with no additional training. This paper proposes a simple invertible neural network architecture for this problem
+                                            and presents our current findings.
+                                        </p>
+                                    </div>                 
+                                </div>
+                            </div> 
+                        </div>
+                        
+                    </div>
+                    <div class="tiny-papers-showcase flex flex-col lg:flex-row lg:flex-wrap items-center lg:items-start w-full p-2 lg:px-5 lg:pt-2">
+                        <div class="lg:w-1/2 xl:w-1/3 px-1 py-1">
+                            <div class="border pb-3">
+                                <!-- <div class="flex w-[80%] sm:w-1/2 md:w-[250px] justify-center">
+                                    <img src="assets/AlBovik.jpg" alt="Alan Bovik">
+                                </div> -->
+                                <div class="w-full flex flex-col p-2 lg:px-5 lg:py-0">
+                                    <div class="grid place-content-center font-urbanist text-xl font-bold text-center text-navigationPurple-700 py-2 h-[100px]">
+                                        Defective Edge Detection Using Cascaded Ensemble Canny Operator
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="tutorial-speakers py-1 flex flex-col items-center">
+                                        <div class="text-sm text-center lg:text-left">
+                                            <span class="font-bold">Anjali Nambiyar</span>
+                                            <span class="italic">, Bishop Heber College</span>
+                                        </div>
+                                        <div class="text-sm text-center lg:text-left">
+                                            <span class="font-bold">Rajkumar Kannan</span>
+                                            <span class="italic">, Bishop Heber College</span>
+                                        </div>
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="tutorial-time py-1 text-center text-slate-500">
+                                        <a href="https://arxiv.org/abs/2411.14868" target="_blank">
+                                            <div class="text-sm lg:text-left flex justify-center">
+                                                <img src="assets/logos/arxiv.png" alt="arxiv logo" width="20" height="20">
+                                                <span>Arxiv</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="text-sm text-justify px-3 py-2 lg:px-0 pb-6 h-56 overflow-y-scroll">
+                                        <p><strong>Abstract:</strong> Edge detection has been one of the most difficult challenges in computer vision because of
+                                            the difficulty in identifying the borders and edges from the real-world images including objects of varying kinds
+                                            and sizes. Methods based on ensemble learning, which use a combination of backbones and attention modules,
+                                            outperformed more conventional approaches, such as Sobel and Canny edge detection. Nevertheless, these algorithms
+                                            are still challenged when faced with complicated scene photos. In addition, the identified edges utilizing the
+                                            current methods are not refined and often include incorrect edges. In this work, we used a Cascaded Ensemble Canny
+                                            operator to solve these problems and detect the object edges. The most difficult Fresh and Rotten and Berkeley
+                                            datasets are used to test the suggested approach in Python. In terms of performance metrics and output picture
+                                            quality, the acquired results outperform the specified edge detection networks.
+                                        </p>
+                                    </div>                 
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="lg:w-1/2 xl:w-1/3 px-1 py-1">
+                            <div class="border pb-3">
+                                <!-- <div class="flex w-[80%] sm:w-1/2 md:w-[250px] justify-center">
+                                    <img src="assets/AlBovik.jpg" alt="Alan Bovik">
+                                </div> -->
+                                <div class="w-full flex flex-col p-2 lg:px-5 lg:py-0">
+                                    <div class="grid place-content-center font-urbanist text-xl font-bold text-center text-navigationPurple-700 py-2 h-[100px]">
+                                        WavShadow: Wavelet Based Shadow Segmentation and Removal
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="tutorial-speakers py-1 flex flex-col items-center">
+                                        <div class="text-sm text-center lg:text-left">
+                                            <span class="font-bold">Shreyans Jain</span>
+                                            <span class="italic">, IIT Gandhinagar</span>
+                                        </div>
+                                        <div class="text-sm text-center lg:text-left">
+                                            <span class="font-bold">Viraj Vekaria</span>
+                                            <span class="italic">, IIT Gandhinagar</span>
+                                        </div>
+                                        <div class="text-sm text-center lg:text-left">
+                                            <span class="font-bold">Karan Sagar Gandhi</span>
+                                            <span class="italic">, IIT Gandhinagar</span>
+                                        </div>
+                                        <div class="text-sm text-center lg:text-left">
+                                            <span class="font-bold">Aadya Arora</span>
+                                            <span class="italic">, IIT Gandhinagar</span>
+                                        </div>
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="tutorial-time py-1 text-center text-slate-500">
+                                        <a href="https://arxiv.org/abs/2411.05747" target="_blank">
+                                            <div class="text-sm lg:text-left flex justify-center">
+                                                <img src="assets/logos/arxiv.png" alt="arxiv logo" width="20" height="20">
+                                                <span>Arxiv</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="text-sm text-justify px-3 py-2 lg:px-0 pb-6 h-56 overflow-y-scroll">
+                                        <p><strong>Abstract:</strong> Shadow removal and segmentation remain challenging tasks in computer vision, particularly
+                                            in complex real world scenarios. This study presents a novel approach that enhances the ShadowFormer model by
+                                            incorporating Masked Autoencoder (MAE) priors and Fast Fourier Convolution (FFC) blocks, leading to significantly
+                                            faster convergence and improved performance. We introduce key innovations: (1) integration of MAE priors trained on
+                                            Places2 dataset for better context understanding, (2) adoption of Haar wavelet features for enhanced edge detection
+                                            and multiscale analysis, and (3) implementation of a modified SAM Adapter for robust shadow segmentation. Extensive
+                                            experiments on the challenging DESOBA dataset demonstrate that our approach achieves state of the art results, with
+                                            notable improvements in both convergence speed and shadow removal quality.
+                                        </p>
+                                    </div>                 
+                                </div>
+                            </div> 
+                        </div>
+                        <div class="lg:w-1/2 xl:w-1/3 px-1 py-1">
+                            <div class="border pb-3">
+                                <!-- <div class="flex w-[80%] sm:w-1/2 md:w-[250px] justify-center">
+                                    <img src="assets/AlBovik.jpg" alt="Alan Bovik">
+                                </div> -->
+                                <div class="w-full flex flex-col p-2 lg:px-5 lg:py-0">
+                                    <div class="grid place-content-center font-urbanist text-xl font-bold text-center text-navigationPurple-700 py-2 h-[100px]">
+                                        Adaptive Multi Scale Document Binarisation Using Vision Mamba
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="tutorial-speakers py-1 flex flex-col items-center">
+                                        <div class="text-sm text-center lg:text-left">
+                                            <span class="font-bold">Siddhant Bharadwaj</span>
+                                            <span class="italic">, IISc Bangalore</span>
+                                        </div>
+                                        <div class="text-sm text-center lg:text-left">
+                                            <span class="font-bold">Mohd Azfar</span>
+                                            <span class="italic">, IISc Bangalore</span>
+                                        </div>
+                                        <div class="text-sm text-center lg:text-left">
+                                            <span class="font-bold">Ashwin Sasikumar</span>
+                                            <span class="italic">, IIIT-Bangalore</span>
+                                        </div>
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="tutorial-time py-1 text-center text-slate-500">
+                                        <a href="https://arxiv.org/abs/2410.22811" target="_blank">
+                                            <div class="text-sm lg:text-left flex justify-center">
+                                                <img src="assets/logos/arxiv.png" alt="arxiv logo" width="20" height="20">
+                                                <span>Arxiv</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="text-sm text-justify px-3 py-2 lg:px-0 pb-6 h-56 overflow-y-scroll">
+                                        <p><strong>Abstract:</strong> Enhancing and preserving the readability of document images, particularly historical ones,
+                                            is crucial for effective document image analysis. Numerous models have been proposed for this task, including
+                                            convolutional-based, transformer-based, and hybrid convolutional-transformer architectures. While hybrid models
+                                            address the limitations of purely convolutional or transformer-based methods, they often suffer from issues like
+                                            quadratic time complexity. In this work, we propose a Mamba-based architecture for document binarisation, which
+                                            efficiently handles long sequences by scaling linearly and optimizing memory usage. Additionally, we introduce novel
+                                            modifications to the skip connections by incorporating Difference of Gaussians (DoG) features, inspired by
+                                            conventional signal processing techniques. These multiscale high-frequency features enable the model to produce
+                                            high-quality, detailed outputs.
+                                        </p>
+                                    </div>                 
+                                </div>
+                            </div> 
+                        </div>                    
+                    </div>
+                    <div class="tiny-papers-showcase flex flex-col lg:flex-row lg:flex-wrap items-center lg:items-center justify-center w-full p-2 lg:px-5 lg:pt-2 pb-4">
+                        <div class="lg:w-1/2 xl:w-1/3 px-1 py-1">
+                            <div class="border pb-3">
+                                <!-- <div class="flex w-[80%] sm:w-1/2 md:w-[250px] justify-center">
+                                    <img src="assets/AlBovik.jpg" alt="Alan Bovik">
+                                </div> -->
+                                <div class="w-full flex flex-col p-2 lg:px-5 lg:py-0">
+                                    <div class="grid place-content-center font-urbanist text-lg font-bold text-center text-navigationPurple-700 py-2 h-[120px]">
+                                        Practical and Accurate Reconstruction of an Illuminant's Spectral Power Distribution for Inverse Rendering Pipelines
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="tutorial-speakers py-1 flex flex-col items-center">
+                                        <div class="text-sm text-center lg:text-left">
+                                            <span class="font-bold">Parisha Joshi</span>
+                                            <span class="italic">, Clemson University</span>
+                                        </div>
+                                        <div class="text-sm text-center lg:text-left">
+                                            <span class="font-bold">Daljit Singh Dhillon</span>
+                                            <span class="italic">, Clemson University</span>
+                                        </div>
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="tutorial-time py-1 text-center text-slate-500">
+                                        <a href="https://arxiv.org/abs/2410.22679" target="_blank">
+                                            <div class="text-sm lg:text-left flex justify-center">
+                                                <img src="assets/logos/arxiv.png" alt="arxiv logo" width="20" height="20">
+                                                <span>Arxiv</span>
+                                            </div>
+                                        </a>
+                                    </div>
+                                    <hr class="h-px bg-slate-400 border-0">
+                                    <div class="text-sm text-justify px-3 py-2 lg:px-0 pb-6 h-56 overflow-y-scroll">
+                                        <p><strong>Abstract:</strong> Inverse rendering pipelines are gaining prominence in realizing photo-realistic
+                                            reconstruction of real-world objects for emulating them in virtual reality scenes. Apart from material reflectances,
+                                            spectral rendering and in-scene illuminants' spectral power distributions (SPDs) play important roles in producing
+                                            photo-realistic images. We present a simple, low-cost technique to capture and reconstruct the SPD of uniform
+                                            illuminants. Instead of requiring a costly spectrometer for such measurements, our method uses a diffractive compact
+                                            disk (CD-ROM) and a machine learning approach for accurate estimation. We show our method to work well with
+                                            spotlights under simulations and few real-world examples. Presented results clearly demonstrate the reliability of
+                                            our approach through quantitative and qualitative evaluations, especially in spectral rendering of iridescent
+                                            materials.
+                                        </p>
+                                    </div>                 
+                                </div>
+                            </div> 
+                        </div>
+                        
                     </div>
                 </div>
 
