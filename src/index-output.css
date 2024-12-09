@@ -720,6 +720,10 @@ video {
   height: 0.5rem;
 }
 
+.h-20 {
+  height: 5rem;
+}
+
 .h-4 {
   height: 1rem;
 }
@@ -762,6 +766,10 @@ video {
 
 .h-\[120px\] {
   height: 120px;
+}
+
+.h-\[150px\] {
+  height: 150px;
 }
 
 .h-\[1px\] {
